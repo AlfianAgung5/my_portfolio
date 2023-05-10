@@ -29,11 +29,15 @@ const Services = () => {
               <div class="h4">Graphic Designer</div>
 
               <div class="content">
-                <div class="h3">How's it goin Fam ?</div>
+                <div class="h3">What Softwares i use ?</div>
                 <p>
-                  This is Pradeep Saran, your tech mate!!! I love you all. Lets
-                  make this world a better place for all of us. Keep
-                  prospering...Keep learning!!!
+                  Photoshop
+                </p>
+                <p>
+                  Figma
+                </p>
+                <p>
+                  Corel Draw
                 </p>
               </div>
             </div>

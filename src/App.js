@@ -8,6 +8,11 @@ import AboutMe from "./components/AboutMe";
 import "./style/portfolio.css";
 
 function App() {
+  const carddesc = [
+    { project: "Project #1", title: "Giri Makmur Jaya Company Profile", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+    { project: "Project #2", title: "Giri Makmur Jaya Company Profile", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+    { project: "Project #3", title: "Giri Makmur Jaya Company Profile", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
+  ];
   return (
     <div>
       {/* Hero and Navigation Bar */}
@@ -21,7 +26,7 @@ function App() {
       </div>
       {/* Projects Section */}
       <div className="project" id="projects">
-        <Project />
+        <Project desc = {carddesc} />
       </div>
       <div className="aboutme" id="about">
         <AboutMe />
