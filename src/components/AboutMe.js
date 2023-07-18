@@ -1,14 +1,14 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
-import aboutpic from "../assets/images/logo.png";
+import {Container} from "react-bootstrap";
+import BioPicture from "../assets/images/logo.png";
 const AboutMe = () => {
+
     const bio = ["Alfian Agung Prasetyo", "08129221039", "alfianagung2000@gmail.com"];
 
   return (
     <Container>
       <div className="row py-5" >
         <div className="col-lg-5">
-            <img src={aboutpic} width={"100%"} height={"600px"} alt="Ini Gambar">
-
+            <img src={BioPicture} width={"100%"} height={"600px"} alt="Ini Gambar">
             </img>
         </div>
         <div className="col-lg-5 px-5">

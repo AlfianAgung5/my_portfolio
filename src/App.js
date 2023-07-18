@@ -6,7 +6,6 @@ import ProjectCard from "./components/ProjectCard";
 import AboutMe from "./components/AboutMe";
 import "./style/portfolio.css";
 import ProjectContent from "./components/ProjectContent";
-import ServicesContent from "./components/ServicesContent";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav } from "react-bootstrap"
+import {Container} from "react-bootstrap"
 import Heroimg from "../assets/images/heroimg.json"
 import Lottie from "lottie-react"
 
