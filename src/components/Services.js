@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 
-import Lottie from "lottie-react";
 const Services = () => {
   return (
     <Container>

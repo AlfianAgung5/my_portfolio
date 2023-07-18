@@ -1,14 +1,14 @@
-.hero, .service, .aboutme{
+.hero, .aboutme{
   height: 100vh;
 }
 .hero{
     width: 100%;
     background-color: #16161a;
 }
-/* .nav{
-  background-color: #16161a;
-  border-bottom: #40E0D0 solid 1px;
-} */
+.nav{
+  background-color: #471934;
+  /* border-bottom: #40E0D0 solid 1px; */
+}
 .project{
   background-color: #16161a;
 
@@ -62,7 +62,6 @@
     background-size: cover;
     background-position: center;
     background-image: url(https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
-    /* background-image: url(https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80); */
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset,
       rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
   }
@@ -146,24 +145,22 @@
     cursor: pointer;
     overflow: hidden;
   }
-  /* .bg-animate{
-    width: 100%;
-    height: 100%;
-    background-image: url(../assets/images/bgshape.svg);
-  } */
   .title-project{
     margin-top: -10px;
   }
+  .radius{
+    border-radius: 10px;
+
+  }
   button {
-    width: 22%;
-    height: 60px;
+    width: 120px;
+    height: 50px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    background: #183153;
-    /* font-family: "Montserrat", sans-serif; */
+    background: #FF8906;
+    font-family: "Montserrat", sans-serif;
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     border: none;
@@ -189,11 +186,10 @@
     text-align: center;
     text-decoration: none;
     width: 100%;
-
     color: #fff;
-    font-size: 1.125em;
+    font-size: 1em;
     font-weight: 700;
-    /* letter-spacing: 0.3em; */
+    letter-spacing: 0.01em;
     z-index: 20;
     transition: all 0.3s ease-in-out;
    }
@@ -217,14 +213,7 @@
     }
    }
    
-  /* .p-project{
-    color: white;
-    position: relative;
-    min-width: 60%;
-    margin-left: 32rem;;
-    align-items: center;
-    background-color: #242629;
-  } */
+
   .adec{
     text-decoration: none;
     background-color: red;
@@ -239,7 +228,12 @@
     }
   }
 
-@media (width <= 770px){
+@media (width <= 996px){
+    .hero{
+      height: 100vh;
+      width: 100%;
+      background-color: #16161a;
+    }
     .hero-btn{
         display: flex;
         justify-content: center;
@@ -253,17 +247,13 @@
     .card-gap{
         margin-bottom: 20px;
     }
-    .hero{
-      height: 100vh;
-      width: 100%;
-      background-color: #16161a;
-  }
     .service{
       height: 100%;
       background-color: #242629;
       
   }
   .project-card{
+    width: 90%;
     height: 80%;
     flex-direction: column;
     align-items: center;
@@ -278,10 +268,14 @@
     margin-left: 0;
     align-self: center;
     background-position: bottom;
-    width: 90%;
+    width: 95%;
   }
   .project-card h2{
     text-align: center;
   }
-
+  .project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

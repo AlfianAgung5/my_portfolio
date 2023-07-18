@@ -15,8 +15,11 @@ const Hero = () => {
             <h1 className="hero-description text-sm-center text-md-start">Hello, I am <br></br><span style={{color:"tomato"}}>(Name)</span></h1>
             <p className="hero-description text-sm-center text-md-start text-muted">I am Web Developer and UI/UX Designer</p>
             <div className="hero-btn">
-            <a className="btn btn-primary mt-4 me-4">Contact</a>
-            <a className="btn btn-primary mt-4">Download CV</a>
+            <div className="mt-4">
+            <button className="radius">
+              <span>Download CV</span>
+            </button>
+            </div>
             </div>
             </div>
         </div>
